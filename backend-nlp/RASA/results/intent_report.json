@@ -1,0 +1,64 @@
+{
+  "DefineDenomination": {
+    "precision": 1.0,
+    "recall": 0.9733333333333334,
+    "f1-score": 0.9864864864864865,
+    "support": 75,
+    "confused_with": {
+      "DefineInstrumentMaturityDate": 1,
+      "DefineInstrumentAmount": 1
+    }
+  },
+  "DefineInstrumentAmount": {
+    "precision": 0.971830985915493,
+    "recall": 1.0,
+    "f1-score": 0.9857142857142858,
+    "support": 69,
+    "confused_with": {}
+  },
+  "DefineIssuerInfo": {
+    "precision": 1.0,
+    "recall": 0.9893617021276596,
+    "f1-score": 0.9946524064171123,
+    "support": 94,
+    "confused_with": {
+      "DefineInstrumentAmount": 1
+    }
+  },
+  "DefineAgent": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "DefineInstrumentMaturityDate": {
+    "precision": 0.9836065573770492,
+    "recall": 0.9836065573770492,
+    "f1-score": 0.9836065573770492,
+    "support": 61,
+    "confused_with": {
+      "Irrelevant": 1
+    }
+  },
+  "Irrelevant": {
+    "precision": 0.9915966386554622,
+    "recall": 1.0,
+    "f1-score": 0.9957805907172996,
+    "support": 118,
+    "confused_with": {}
+  },
+  "accuracy": 0.990632318501171,
+  "macro avg": {
+    "precision": 0.9911723636580008,
+    "recall": 0.991050265473007,
+    "f1-score": 0.9910400544520389,
+    "support": 427
+  },
+  "weighted avg": {
+    "precision": 0.9907839376803595,
+    "recall": 0.990632318501171,
+    "f1-score": 0.9906328058749932,
+    "support": 427
+  }
+}

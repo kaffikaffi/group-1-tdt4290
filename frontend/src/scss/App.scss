@@ -1,0 +1,39 @@
+@import "./imports/colors";
+@import "./imports/sizes";
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+html {
+	overflow: hidden;
+	height: 100%;
+}
+
+body {
+	background-color: $dark;
+	color: $gray;
+	padding: 0;
+	margin: 0;
+	font-family: "Raleway", sans-serif;
+	overflow: auto;
+}
+
+#root {
+	width: 100vw;
+	height: 100vh;
+}
+
+.app {
+	width: 100%;
+	height: 100%;
+
+	.app-content {
+		max-width: $contentMaxWidth;
+		padding-top: $headerHeight;
+		margin: 0 auto;
+	}
+}

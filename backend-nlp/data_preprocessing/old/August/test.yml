@@ -1,0 +1,69 @@
+version: "2.0"
+
+nlu:
+- intent: DefineIssuerIncorperationPlace
+  examples: |
+    - _SS Petroleum Geo-Services ASA, a company incorporated under the laws of the Kingdom of Norway (the “Compa- ny”), is offering $150
+    - _SS This prospectus (the “Prospectus”) has been prepared in connection with the senior secured bonds offering of Stockmann plc (the “Issuer” or “Stockmann”), a public limited company incorporated in Finland
+- intent: DefineInstrumentMaturityDate
+  examples: |
+    - "_ME  Maturity Date: 20 November 2028 (such date prior to any adjustment, the \"Scheduled Maturity Date\"), subject to - 5 - adjustment in accordance with the Following Business Day Convention "
+    - "_MM Maturity Date: January 15, 2024 "
+    - "_SM Maturity Date: 20 March 2024 "
+    - "_SM  Scheduled Maturity Date: 4 March 2033, subject to adjustment in accordance with the Modified Following Business Day Convention "
+    - _MM "Final Maturity Date" means 1 July 2024. 
+    - "_SS Maturity Date: May 15, 2018 "
+    - "_MM Maturity Date: May 15, 2018 "
+    - "_SM Maturity Date: July 15, 2020 "
+- intent: DefineIssuerName
+  examples: |
+    - "_SM 1. Issuer: SpareBank 1 Boligkreditt AS "
+    - _SM Aktiebolaget Svensk Exportkredit (publ) (Swedish Export Credit Corporation) (Incorporated in the Kingdom of Sweden with limited liability) ("SEK" or the "Issuer") Unlimited Programme for the Continuous Issuance of Debt Instruments Issue of a Series of USD 600,000,000 1.625 per cent. Instruments due 14 January 2022 (the "Instruments") 
+    - _SS Single Platform Investment Repackaging Entity SA  (a public limited liability company (société anonyme) incorporated under the laws of Luxembourg with registered office at 51, avenue John F. Kennedy, L-1855 Luxembourg, having a share capital of EUR 31,000, and duly registered with the Registre de Commerce et des  Sociétés, Luxembourg with number B206430) (“SPIRE”)  acting in respect of its Compartment 2020-170 
+    - "_SS Issuer: Statoil ASA (“Statoil”)"
+    - "_ME Signed on behalf of AKTIEBOLAGET SVENSK EXPORTKREDIT (publ): "
+    - _SS STOCKMANN PLC 
+    - _MM Sparebanken Vest 
+    - _MM These Final Terms comprise the details required to list and have admitted to trading the issue of Covered Bonds described herein pursuant to the EUR 25,000,000,000 Global Medium Term Covered Note Programme of SpareBank 1 Boligkreditt AS. 
+    - "_SS 1 (i) Issuer: SPI Electricity & Gas Australia Holdings Pty  Ltd (ABN 97 086 006 859) "
+    - _SS COÖPERATIEVE RABOBANK U.A. 
+    - _SS SR-Boligkreditt AS 
+- intent: DefineDenomination
+  examples: |
+    - "_MM  (i) Specified Denominations: USD 200,000 and integral multiples of USD 1,000 in excess thereof up to and including USD 399,000. No Instruments in definitive form will be issued with a Specified Denomination above USD 399,000 "
+    - "_ME 6 (i) Specified Denominations: NOK 2,000,000 "
+    - "_MM (ii) Calculation Amount (Par): NOK 50,000 "
+    - "_MM  (a) Specified Denominations: NOK 2,000,000 "
+    - "_SS (c) Minimum Trading Size: NOK 10,000 "
+    - "_SM  (a) Specified Denominations: USD 200,000 and integral multiples of USD 1,000  in excess thereof "
+    - "_MM  (i) Specified Denominations: NOK 50,000 "
+    - _MM Denomination – Each Bond NOK 1,000,000 Any restrictions on the free transferability of the securities
+    - "_SM (i) Specified Denomina- tions: (il) Calculation Amount: EUR 100,000 EUR 100,000 "
+- intent: DefineInstrumentMaxAmount
+  examples: |
+    - "_MM Series: U.S.$1,250,000,000 "
+    - "_ME  Aggregate Nominal Amount: (i) Series SEK 3,400,000,000 "
+    - "_MM (i) Series: $600,000,000 "
+    - "_MM (i) Series: GBP 450,000,000 "
+    - "_ME Borrowing Limit – Tap Issue: NOK 3,000,000,000 "
+- intent: DefineInstrumentFirstAmount
+  examples: |
+    - "_SM Aggregate Principal Amount: NOK 300,000,000 "
+    - _MM  • Borrowing Amount 1st trance NOK 1,000,000,000. 
+    - "_MM (ii) Tranche: £200,000,000 "
+    - "_MM (ii) Tranche: NOK 300,000,000 "
+    - "_SM (ii) Tranche: NOK500,000,000 "
+    - "_MM Aggregate Principal Amount: NOK 1,230,000,000 "
+- intent: DefineAgent
+  examples: |
+- intent: Irrelevant
+  examples: |
+    - _MEE Standard & Poor’s A+ (expected)  
+    - "_ME Final Redemption Amount: USD 1,000 per Calculation Amount  21."
+    - "_ME The names of the Guarantors as at the issue See attached Guarantee dated 7 May 1993, as date of the relevant Tranche and details of amended the date, form and other relevant details of the Guarantee given by such Guarantors:  DISTRIBUTION  31."
+    - "_MEE Deemed delivery of clearing Any notice delivered to Noteholders through the system notices for the purposes clearing systems will be deemed to have been of Condition 14: given on the second business day after the day on which it was given to Euroclear and Clearstream, Luxembourg."
+    - _SS IN  PURCHASING THE NOTES, PURCHASERS WILL BE DEEMED TO REPRESENT AND WARRANT THAT  
+    - _ME The Issuer undertakes to repay the Bonds, to pay Interest and to otherwise act in accordance and comply with these Terms and Conditions.
+    - _EE It has the power to enter into, perform and deliver, and has taken all necessary action to authorise its entry into, performance and delivery of, these Bond Terms and any other Finance Document to which it is a party and the transactions contemplated by those Finance Documents.
+    - _SM No person has been authorised to give any information or to make any representation other than those contained  in this Series Memorandum in connection with the issue or sale of the Notes and, if given or made, such  information or representation must not be relied upon as having been authorised by the Issuer or the Dealer (as  specified in the Pricing Terms contained in this Series Memorandum).
+    - "_MM (a) Specified Denominations: NOK 2,000,000  (b) Calculation Amount (in relation to calculation of interest for Notes in global form see Conditions): NOK 2,000,000  6."

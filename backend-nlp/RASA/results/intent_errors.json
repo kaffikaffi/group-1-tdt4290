@@ -1,0 +1,34 @@
+[
+  {
+    "text": "_SS This prospectus (the “Prospectus”) has been prepared by Bayport Management Ltd (the “Company” or the “Issuer”), registration number 54787/C1 GBL, LEI 549300MHJ6KEDPWPMN38, in relation to the application for admission to trading of the Company’s USD 80,000,000 subordinated fixed rate social bonds 2019/2022 with ISIN NO0010871601 (the “Bonds”) issued on 19 December 2019 (the “Issue Date”) (the “Bond Issue”) in accordance with the terms and conditions for the Bonds (the “Terms and Conditions”) on Nasdaq Stockholm Sustainable Bond List (“Nasdaq Stockholm”). The Issuer may at one or more occasions after the Issue Date issue Subsequent Bonds under the Terms and Conditions, until the total amount under such Subsequent Bond Issue(s) and the Bond Issue equals USD 100,000,000",
+    "intent": "DefineIssuerInfo",
+    "intent_prediction": {
+      "name": "DefineInstrumentAmount",
+      "confidence": 0.7892929911613464
+    }
+  },
+  {
+    "text": "_ME 1 The aggregate amount of the bond loan will be an amount of up to SEK 750,000,000 which will be represented by Bonds, each of a nominal amount of SEK 1,250,000 or full multiples thereof (the “Nominal Amount”)",
+    "intent": "DefineDenomination",
+    "intent_prediction": {
+      "name": "DefineInstrumentAmount",
+      "confidence": 0.6937299370765686
+    }
+  },
+  {
+    "text": "\"_MM (ii) Calculation Amount: SEK 1,000,000 (i) Issue Date: 24 May 2021 (ii) Interest Commencement 18 January 2021 Date: Maturity Date: 18 January 2024 \"",
+    "intent": "DefineDenomination",
+    "intent_prediction": {
+      "name": "DefineInstrumentMaturityDate",
+      "confidence": 0.5009635090827942
+    }
+  },
+  {
+    "text": "_MM  Maturity Date; Interest Payment Date falling in or nearest to June 2026",
+    "intent": "DefineInstrumentMaturityDate",
+    "intent_prediction": {
+      "name": "Irrelevant",
+      "confidence": 0.7619276642799377
+    }
+  }
+]

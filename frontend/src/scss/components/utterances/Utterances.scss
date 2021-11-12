@@ -1,0 +1,54 @@
+@import "../../imports/colors";
+
+.utterances {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	border: 1px solid rgba($gray, 0.5);
+	box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.8);
+	border-radius: 15px;
+	max-height: 400px;
+	width: 100%;
+	margin-bottom: 50px;
+
+	.utterances-header {
+		position: absolute;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		text-align: center;
+		margin: 0 auto;
+		background-color: $dark;
+		color: rgba($white, 0.7);
+		top: 10px;
+		left: 50px;
+		height: 50px;
+		padding: 15px 0;
+		width: 90%;
+		font-weight: 600;
+
+		.utterances-header-confidence {
+			flex: 0.1;
+		}
+
+		.utterances-header-utterance {
+			flex: 0.8;
+		}
+
+		.utterances-header-intent {
+			flex: 0.3;
+		}
+
+		.utterances-header-entityCount {
+			flex: 0.1;
+		}
+	}
+
+	.content {
+		overflow-y: auto;
+		margin: 60px 0 25px 0;
+		width: 100%;
+	}
+}

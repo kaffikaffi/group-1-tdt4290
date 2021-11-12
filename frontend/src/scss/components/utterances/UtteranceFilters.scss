@@ -1,0 +1,25 @@
+@import "../../imports/colors";
+
+.utteranceFilters {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 250px;
+	margin-bottom: 25px;
+
+	button {
+		color: $white;
+		background-color: $dark;
+		border: 1px solid $gray;
+		transition: all ease-in-out 100ms;
+		border-radius: 25px;
+		padding: 5px 15px;
+		font-weight: 500;
+
+		&:hover {
+			cursor: pointer;
+			transform: scale(0.97);
+			transition: all ease-in-out 100ms;
+		}
+	}
+}

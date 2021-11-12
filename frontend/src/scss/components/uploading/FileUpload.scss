@@ -1,0 +1,47 @@
+@import "../../imports/colors";
+@import "../../imports/sizes";
+
+.fileupload {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 275px;
+
+	.title {
+		font-size: 35px;
+		font-weight: 700;
+		margin: 0;
+	}
+
+	.info {
+		text-align: center;
+		font-size: 14px;
+		font-weight: 100;
+		margin: 10px 0 15px 0;
+	}
+
+	.file {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 15px;
+
+		.file-image {
+			font-size: 50px;
+		}
+
+		.file-name {
+			font-size: 14px;
+			font-weight: 100;
+		}
+	}
+
+	.buttons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 15px;
+	}
+}

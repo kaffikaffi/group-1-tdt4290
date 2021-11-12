@@ -1,0 +1,36 @@
+@import "../imports/colors";
+
+.processing {
+	margin: 75px auto;
+	max-width: 900px;
+	width: 100%;
+
+	.processing-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		padding: 15px;
+		padding-bottom: 400px;
+
+		.direction {
+			font-size: 75px;
+			color: $orange;
+		}
+
+		.info {
+			text-align: center;
+			font-size: 14px;
+			font-weight: 100;
+			margin-bottom: 25px;
+		}
+
+		.processing-content-button {
+			border: 1px solid $gray;
+			background-color: $white;
+			border-radius: 15px;
+			margin-bottom: 25px;
+			padding: 3px 10px;
+		}
+	}
+}

@@ -1,0 +1,442 @@
+version: "2.0"
+nlu:
+- intent: DefineIssuerInfo
+  examples: |
+    - _MEE 2 The Issuer's registered office and legal form, legislation applying to the Issuer and country of incorporation Nykredit Realkredit A/S is a Danish public limited company. The Issuer carries on mortgage banking activities in accordance with Danish law. Nykredit's registered address is Kalvebod Brygge 1-3, DK-1780 Copenhagen V, Denmark.
+    - _MM 2 The Issuer's registered office and legal form, legislation applying to the Issuer and country of incorporation Nykredit Realkredit A/S is a Danish public limited company. The Issuer carries on mortgage banking activities in accordance with Danish law. Nykredit's registered address is Kalvebod Brygge 1-3, DK-1780 Copenhagen V, Denmark
+    - "_SM These Final Terms and the Base Prospectus are available on the Issuer's website https://entra.no or on the Issuer's visit address, Biskop Gunnerus gate 14, 0185 Oslo, Norway, or their successor (s). Entra ASA "
+    - _MM B.2 The Issuer's registered office and legal form, legislation applying to the Issuer and country of incorporation Nykredit Realkredit A/S is a Danish public limited company. The Issuer carries on mortgage banking activities in accordance with the Danish Financial Business Act. Nykredit's registered address is Kalvebod Brygge 1-3, DK-1780 Copenhagen V, Denmark.
+    - _SS (incorporated as a public company with limited liability (société anonyme/naamloze vennootschap) under the laws of Belgium, having its registered office in Montagne du Parc 3, B-1000 Brussels, and registered with the register of legal entities of Brussels under enterprise No. 0403.199.702)
+    - _SS Single Platform Investment Repackaging Entity SA  (a public limited liability company (société anonyme) incorporated under the laws of Luxembourg with registered office at 51, avenue John F. Kennedy, L-1855 Luxembourg, having a share capital of EUR 31,000, and duly registered with the Registre de Commerce et des Sociétés, Luxembourg with number B206430) (“SPIRE”)
+    - _MM 2 The Issuer's registered office and legal form, legislation applying to the Issuer and country of incorporation Nykredit Realkredit A/S is a Danish public limited company. The Issuer carries on mortgage banking activities in accordance with the Danish Financial Business Act. Nykredit's registered address is Kalvebod Brygge 1-3, DK-1780 Copenhagen V, Denmark.
+    - _SS (a cooperative (coöperatie) formed under the laws of the Netherlands with its statutory seat in  Amsterdam)
+    - _SM  Entra ASA, Biskop Gunnerus gate 14, 0185 Oslo, Norway
+    - _MM Key information on the Issuer Disclosure requirements Disclosure Who is the issuer of the securities Domicile and legal form The Issuer is a public limited liability company incorporated in Norway and primarily organized under the laws of Norway, including the Public Limited Companies Act
+    - "_SM  Place of registration: VP Securities A/S, Weidekampsgade 14, PO Box 4040, DK-2300 Copenhagen S "
+    - _MM “Issuer” means VNV Global AB (publ) (reg. no. 556677-7917, Mäster Samuelsgatan 1, 1st floor, 111 44 Stockholm, Sweden)
+    - _SM NOK 500,000,000 Floating Rate Notes issued pursuant to the  Euro 50,000,000,000 Euro Medium Term Note Programme of  Bayerische Motoren Werke Aktiengesellschaft (“BMW AG”) BMW Finance N.V. (“BMW Finance”) BMW US Capital, LLC (“BMW US Capital”) BMW International Investment B.V. (“BMW Investment”) BMW Japan Finance Corp. (“BMW Japan”)
+    - _SS In connection with the opening of new ISINs under Nykredit Realkredit A/S's Base Prospectus dated 15 May 2017 with amendments, Nykredit issues new Final Bond Terms.
+    - _MM These Final Terms comprise the details required to list and have admitted to trading the issue of Covered Bonds described herein pursuant to the EUR 25,000,000,000 Global Medium Term Covered Note Programme of SpareBank 1 Boligkreditt AS
+    - _SS 2.49%Entra ASA Unsecured Open Bond Issue 2021/2030
+    - "_SS SBAB BANK AB (publ) (Incorporated with limited liability in the Kingdom of Sweden) Legal Entity Identifier (LEI): HOYXSLBGKDVOWCXBZ594 "
+    - _SS Region Stockholm
+    - _SS SPI Electricity & Gas Australia Holdings Pty Ltd  only Issue of NOK900,000,000 3.97 per cent. Notes due 2029 (the “Notes”)
+    - _SS The Bonds have been issued pursuant to Nykredit Realkredit A/S's base prospectus dated 15 May 2017 (the "Base Prospectus").
+    - _SS Kommunekredit
+    - _SS This prospectus (the “Prospectus”) has been prepared by Bayport Management Ltd (the “Company” or the “Issuer”), registration number 54787/C1 GBL, LEI 549300MHJ6KEDPWPMN38, in relation to the application for admission to trading of the Company’s USD 80,000,000 subordinated fixed rate social bonds 2019/2022 with ISIN NO0010871601 (the “Bonds”) issued on 19 December 2019 (the “Issue Date”) (the “Bond Issue”) in accordance with the terms and conditions for the Bonds (the “Terms and Conditions”) on Nasdaq Stockholm Sustainable Bond List (“Nasdaq Stockholm”). The Issuer may at one or more occasions after the Issue Date issue Subsequent Bonds under the Terms and Conditions, until the total amount under such Subsequent Bond Issue(s) and the Bond Issue equals USD 100,000,000
+    - _SS Pricing Supplement dated 20 November 2018  JPMorgan Chase & Co.  Structured Products Programme for the issuance of Notes, Warrants and Certificates  (the "Programme")
+    - _MM NORDEA BANK ABP
+    - _ME 1 Legal and commercial name The Issuer of the Notes is BNP Paribas Fortis SA/NV of the Issuer ("BNPPF")
+    - _SS This document is a series memorandum (the “Series Memorandum”), which contains information relating to the above notes (the “Notes”) issued by SPIRE acting in respect of its Compartment 2020-170 (the “Issuer”)
+    - "_ME Issuer: Nordic Investment Bank"
+    - "_MM  (i) Issuer: Morgan Stanley & Co International plc "
+    - _MM Landshypotek Bank AB (publ)
+    - _ME “Company” or “PGS” refers to Petroleum Geo-Services ASA
+    - _ME Single Platform Investment Repackaging Entity SA  (a public limited liability company (société anonyme) incorporated under the laws of Luxembourg with registered office at 51, avenue John F. Kennedy, L-1855 Luxembourg, having a share capital of EUR 31,000, and duly registered with the Registre de Commerce et des Sociétés, Luxembourg with number B206430) (“SPIRE”)
+    - "_MM  Issuer: KommuneKredit "
+    - _SM Kommuninvest i Sverige Aktiebolag (publ)
+    - _SS 15 November 2012 SpareBank 1 Boligkreditt AS
+    - _SS Nykredit Realkredit A/S's Base Prospectus dated 15 May 2017 and the relevant Final Bond Terms are available for download in Danish and English. In the event of discrepancies between the original Danish text and the English translation, the Danish text shall prevail. The documents can be found on Nykredit's website at nykredit
+    - "_ME Signed on behalf of Sparebanken Vest: "
+    - _SS Morgan Stanley & Co International plc as Issuer
+    - _SS This document is a series memorandum (the “Series Memorandum”), which contains information relating to  the above notes (the “Notes”) issued by SPIRE acting in respect of its Compartment 2020-170 (the “Issuer”)
+    - _SS BNP PARIBAS FORTIS NV/SA
+    - _MM DANSKE BANK A/S
+    - "_SM  (i) Issuer: Citigroup Global Markets Funding Luxembourg S.C.A. "
+    - _MM "Issuer" means CA Fastigheter Aktiebolag (publ), a limited liability company incorporated in Sweden with reg. no. 556227-5700.
+    - "_MM  (i) Issuer: JPMorgan Chase & Co. "
+    - _SM begeben von issued by  Daimler Canada Finance Inc.
+    - "_SM  Issuer: Region Stockholm "
+    - "_ME  Whether TEFRA D or TEFRA C rules applicable or TEFRA rules not applicable or TEFRA D (Swiss practice): TEFRA not applicable 5 Signed on behalf of Storebrand Boligkreditt AS: "
+    - _SS SBAB BANK AB (publ)  (Incorporated with limited liability in the Kingdom of Sweden)
+    - "_MM  Issuer: Danske Bank A/S "
+    - "_SM  Issuer: SpareBank 1 Boligkreditt AS "
+    - "_SS Issuer: Kommunekredit  (1) Series Number: 1201504713 "
+    - _SS Terms and Conditions  Oscar Properties Holding AB (publ)  Up to SEK 1,000,000,000  Senior Unsecured Floating Rate Bonds
+    - _ME "Issuer" means Oscar Properties Holding AB (publ), limited liability company incorporated in Sweden with reg. no. 556870-4521.
+    - _EE These Final Terms comprise the details required to list the issue of Notes described herein pursuant to the listing of the EUR 30,000,000,000 Euro Medium Term Note Programme of KommuneKredit.
+    - "_SS Issuer: Entra ASA "
+    - _SS New Final Bond Terms for Nykredit Realkredit A/S's Base Prospectus dated 15 May 2017
+    - _SM  All references to the “Issuer” refer to Stockmann plc, except where the context may otherwise require.
+    - _MM  1 Legal name and secondary names of the Issuer Nykredit Realkredit A/S
+    - "_MM 1 Issuer: Coöperatieve Rabobank U.A. "
+    - "_ME Issuer: Statoil ASA (“Statoil”)"
+    - "_ME Signed on behalf of Kommuninvest i Sverige Aktiebolag (publ): "
+    - "_ME Signed on behalf of AKTIEBOLAGET SVENSK EXPORTKREDIT (publ): "
+    - _MM KommuneKredit
+    - "_MM Issuer: Statoil ASA (“Statoil”). "
+    - _SM Aktiebolaget Svensk Exportkredit (publ) (Swedish Export Credit Corporation) (Incorporated in theKingdom of Swedenwith limited liability) ("SEK" or the "Issuer")
+    - _SS BMW Finance N.V.
+    - _ME These Final Terms comprise the final terms required for admission to the Official List of the Luxembourg Stock Exchange and admission to trading on the regulated market of the Luxembourg Stock Exchange of the issue of Notes described herein pursuant to the Euro Note Programme of Kommuninvest i Sverige Aktiebolag (publ).
+    - "_MM  Entra ASA  Final Terms – 2.49% Entra ASA Unsecured Open Green Bond Issue 2021/2030 ISIN: NO0011041535 "
+    - _SM  Given the highly specialised nature of these Notes, Morgan Stanley & Co. International plc (“the  Issuer”)("MSI plc") consider that they are only suitable for highly sophisticated investors who are able to
+    - _SS Storebrand Boligkreditt AS
+    - "_SS ISSUER: Lithium SPV Limited, a private limited company incorporated in Jersey with registration number 136875 and LEI-code 213800F1DJSIYITA1H16. "
+    - _MM Aktiebolaget Svensk Exportkredit (publ) (Swedish Export Credit Corporation) (Incorporated in theKingdom of Swedenwith limited liability) ("SEK" or the "Issuer")
+    - _SS Nordic Investment Bank
+    - _SS The Bonds have been issued pursuant to Nykredit Realkredit A/S's base prospectus dated 17 June 2014 (the "Base Prospectus").
+    - _SS #9861143/6 BOND TERMS  for Lithium SPV Limited 5.00% EUR 69,102,970 Limited Recourse PIK Notes 2021/2028
+    - _SS FRN Entra ASA Unsecured Green Bond Issue 2017/2024 (the “Bonds” or the “Bond Issue”)
+    - "_MM B.l Legal name and secondary names of the Issuer Nykredit Realkredit A/S. The issuer carries on business under the following secondary names: Industrikredit A/S, IRF Erhvervsfinansiering A/S, IRF Industrifinansiering A/S, IRF Industrikredit A/S, Nykredit A/S, Nykredit Industri A/S and Realkreditaktieselskabet Nykredit. "
+    - _SS Aktiebolaget Svensk Exportkredit (publ) (Swedish Export Credit Corporation) (Incorporated in the Kingdom of Sweden with limited liability) ("SEK" or the "Issuer")  Unlimited Programme for the Continuous Issuance of Debt Instruments Issue of a Series of  GBP 450,000,000 0.125 per. cent Instruments due 15 December 2025 ("Instruments")
+    - _SS The Bonds have been issued pursuant to Nykredit Realkredit A/S's base prospectus dated 17 June 2014 and prospectus supplement no 1 dated 26 August (the "Base Prospectus").
+    - "_ME  6 Signed on behalf of Kommuninvest i Sverige Aktiebolag (publ): "
+    - _SS Final Terms dated 23 June 2015 Kommunekredit
+    - _SS Volkswagen Financial Services N.V.
+    - "_MM Name of the issuer: Address: Business identity code: Legal entity identifier (LEI): ISIN of the Bonds: Stockmann Oyj Abp Aleksanterinkatu 52 B, FI-00100 Helsinki, Finland 0114162-2 743 700 IFQI6W 89M 1IY95 FI4000507330 "
+    - "_SS Final Terms – 2.49% Entra ASA Unsecured Open Green Bond Issue 2021/2030 ISIN: NO0011041535 "
+    - _SS Petroleum Geo-Services ASA $150,000,000 7.375% Senior Notes due 2018
+    - _EE  S-1 Im Namen der Emittentin unterzeichnet Signed on behalf of the Issuer  Daimler Canada Finance Inc.
+    - _SS CA Fastigheter Aktiebolag (publ)
+    - "_MM Issuer: Statoil ASA (“Statoil”)"
+    - _SS  Nykredit declares:
+    - _SS  The Bonds have been issued pursuant to Nykredit Realkredit A/S's base prospectus dated 17 June 2014 (the "Base Prospectus").
+    - _ME  Further, Nykredit carries on banking activities through the subsidiary Nykredit Bank A/S.
+    - _ME  As the Notes are listed on the official list and admitted to trading on the Bourse de Luxembourg, which is the regulated market of the Luxembourg Stock Exchange ("Luxembourg Regulated Market"), this Final Terms will be published on the website of the Luxembourg Stock Exchange (www.bourse.lu) and copies may be obtained from the registered office of BNP Paribas Securities Services, Luxembourg Branch as Principal Paying Agent and Luxembourg Listing Agent at 60, avenue J.F.
+    - _SS  Final Terms dated 30 December 2016  BNP PARIBAS FORTIS NV/SA  (incorporated as a public company with limited liability (société anonyme/naamloze vennootschap) under the laws of Belgium, having its registered office in Montagne du Parc 3, B-1000 Brussels, and registered with the register of legal entities of Brussels under enterprise No.
+    - _SS  The Base Prospectus is available for viewing at www.bourse.lu and at www.TDC.com or www.TDC.dk and during normal business hours on any day (excluding Saturdays, Sundays and public holidays) at the offices of the Issuer at Teglholmsgade 3, DK-0900 Copenhagen C, Denmark and the offices of the Fiscal Agent Deutsche Bank AG, London Branch at Winchester House, 1 Great Winchester Street, London EC2N 2DB, United Kingdom and the Registrar Deutsche Bank Luxembourg S.A. at 2 Boulevard Konrad Adenauer, L-1115 Luxembourg, Grand Duchy of Luxembourg and copies may be obtained from the offices of the Issuer at Teglholmsgade 3, DK-0900 Copenhagen C, Denmark and the offices of the Fiscal Agent Deutsche Bank AG, London Branch at Winchester House, 1 Great Winchester Street, London EC2N 2DB, United Kingdom and the Registrar Deutsche Bank Luxembourg S.A. at 2 Boulevard Konrad Adenauer, L-1115 Luxembourg, Grand Duchy of Luxembourg.
+    - _SS  Issuer: TDC A/S 2.
+- intent: DefineDenomination
+  examples: |
+    - "_MM (a) Specified Denominations: SEK 2,000,000 "
+    - "_MM (ii) Calculation Amount: £1,000 "
+    - _MEE (d) The minimum permissible investment in the Initial Bond Issue is SEK 1,250,000
+    - "_SS (b) Calculation Amount: NOK 10,000 "
+    - _SS (ii) Calculation Amount NOK1,000,000
+    - "_MM  (i) Specified Denominations: GBP 100,000 and integral multiples of GBP 1000 in excess thereof up to and including GBP 199,000. No Instruments in definitive form will be issued with a Specified Denomination above GBP 199,000. "
+    - "_MM (ii) Calculation Amount: SEK l,OOO,OOO "
+    - "_ME 6 (i) Specified Denominations: NOK 2,000,000 "
+    - "_SS (c) Minimum Trading Size: NOK 10,000 "
+    - _SS (d) Minimum Subscription Amount NOK 10,000
+    - "_MM Denominations: $1,000 and integral multiples of $1,000 "
+    - _MEE  The maximum total nominal amount of the Initial Bonds is SEK 500,000,000
+    - "_ME (ii) Calculation Amount: NOK 2,000,000 "
+    - "_MM  (a) Specified Denomination(s): U.S.$200,000 and integral multiples of U.S.$1,000 in excess thereof "
+    - "_MM  (i) Specified Denomination: SEI( 2,000,000 and integral multiples of SEK  1,OOO,OOO in excess thereof up to and including  SEK 3 000 000. No Instruments in definitive "
+    - _MEE (c) The nominal amount of each Bond is SEK 1,250,000 (the "Nominal Amount"). The maximum total nominal amount of the Initial Bonds is SEK 500,000,000
+    - "_MM (b) Calculation Amount (in relation to calculation of interest for Notes in global form see Conditions): NOK 2,000,000 "
+    - "_EE Specified Denomination: NOK 10,000 "
+    - "_SM Nominal Value: The Bonds will have a nominal value of NOK 1,000,000 each "
+    - "_MM  (i) Specified Denomination(s): EUR 100,000 and integral multiples of EUR 1,000 in excess thereof up to and including EUR 199,000. No Notes in definitive form will be issued with a denomination above EUR 199,000. "
+    - "_ME  (i) Specified Denomination:  SEK 2,000,000 and integral multiples of SEK  l,OOO,OOO in excess thereof up to and including  SEK 3,000,000. No Instruments in definitive  form will be issued with a Specified  Denomination above SEK 3,000,000. "
+    - _ME 1 The aggregate amount of the bond loan will be an amount of up to SEK 750,000,000 which will be represented by Bonds, each of a nominal amount of SEK 1,250,000 or full multiples thereof (the “Nominal Amount”)
+    - "_MM  Calculation Amount (in relation to SEK 1,000,000 calculation of interest in global form see Conditions): "
+    - "_SM (ii) Calculation Amount: NOK 1,000,000 "
+    - "_MM  (i) Specified Denominations: £100,000 and multiples of £1,000 thereafter "
+    - "_ME (ii) Calculation Arnount: SEK l,OOO,OOO "
+    - "_MM  (i) Specified Denominations: USD 200,000 and integral multiples of USD 1,000 in excess thereof up to and including USD 399,000. No Notes in definitive form will be issued with a denomination above USD 399,000. "
+    - "_MM  Specified Denominations: SEK 2,000,000 and integral multiples of SEK 1,000,000 in excess thereof "
+    - "_ME  Final Redemption Amount: In respect of each Note (being of the Specified Denomination), SEK 10,000,000 "
+    - "_SM (b) Calculation Amount: USD 1,000 "
+    - "_SM  Diese Serie der Schuldverschreibungen (die \"Schuldverschreibungen\") der Volkswagen Financial Services N.V. (die \"Emittentin\") wird in Norwegischen Kronen (\"NOK\") (die \"Festgelegte Währung\") im Gesamtnennbetrag von NOK 500.000.000 (in Worten: fünfhundert Millionen) begeben und ist eingeteilt in 50.000 Schuldverschreibungen im Nennbetrag von NOK 10.000 (die \"Festgelegte Stückelung\")"
+    - "_SM Authorized Denominations: NOK 10,000 and integral multiples thereof "
+    - "_SS For 6 (i) Specified Denominations: NOK1,000,000 "
+    - "_ME 24, Final Redemption Amount: SEK 2,000,000 per Calculation Amount "
+    - "_MM (b) Calculation Amount: U.S.$1,000 "
+    - _MM SEK 2,000,000 and integral multiples of  SEK 1,000,000 in excess thereof up to and including  SEK 3,000,000. No Notes in definitive form will be
+    - "_MM (ii) Calculation Amount: GBP 1,000 "
+    - _MM Securities Eight hundred (800) Bonds were issued in the Bond Issue, each Bond with a nominal amount of USD 100,000
+    - "_SM  (a) Specified Denominations: USD 200,000 and integral multiples of USD 1,000 2 in excess thereof "
+    - "_SS  Denomination:  Interest and payment 0.01 "
+    - "_MM (ii) Calculation Amount: USD 1,000 "
+    - "_MM (ii) Calculation Amount: SEK 1,000,000 (i) Issue Date: 24 May 2021 (ii) Interest Commencement 18 January 2021 Date: Maturity Date: 18 January 2024 "
+    - "_ME Denomination – Each bond: NOK 1,000,000 - each and ranking pari passu among themselves "
+    - "_MM  (a) Specified Denominations: $200,000 and integral multiples of $1,000 in excess thereof up to and including $299,000 (or equivalent in another currency). "
+    - "_MM (ii) Calculation Amount: NOK 1,000,000 "
+    - "_MM (a) (b) Specified Denominations: Calculation Amount: SEK 2,000,000 SEK 2,000,000 "
+    - "_SM  (i) Specified Denominations: NOK 1,000,000 "
+    - "_MM (b) Calculation Amount: SEK 2,000,000 "
+    - "_ME (iii) Minimum trading size: One (1) Security (corresponding to a nominal amount of SEK 10,000,000) "
+    - _MM Festgelegte Stückelung NOK 2.000.000 Specified Denomination NOK 2,000,000
+    - "_SS (a) Specified Denomination(s): NOK 10,000 "
+    - "_MM  Final Redemption Amount: U.S.$1,000 per Calculation Amount "
+    - "_MM (i) Specified Denomination(s): SEK 2,000,000 and integral multiples of SEK 1,000,000 in excess thereof up to and including SEK 3,000,000. No Notes in definitive form will be issued with a denomination above SEK 3,000,000. "
+    - "_MM 6 (i) Specified Denominations: NOK 1,000,000 "
+    - "_MM (b) Calculation Amount: $1,000 "
+    - "_ME (i) Specified Denomination: SEK 10,000,000 "
+    - "_ME  Final Redemption Amount: NOK 2,000,000 per Calculation Amount "
+    - _MEE (c) The nominal amount of each Bond is SEK 1,250,000 (the "Nominal Amount"). The total nominal amount of the Initial Bonds is SEK 550,000,000
+    - _SS The Bonds are issued in denominations of EUR 1
+    - "_MM (ii) Calculation Amount: EUR 1,000 "
+    - "_MM  (i) Specified Denominations: EUR 100,000 and integral multiples of EUR 1,000 in excess thereof, up to and including EUR 199,000. "
+    - _SS  The Bonds are issued in denominations of EUR 1
+    - _MM (ii) Calculation Amount USD 1,000
+    - _MM Specified Denomination(s) NOK 2,000,000 and integral multiples of NOK 1,000,000 in excess thereof
+    - "_SS  Denomination: 0.01 "
+    - "_SM (1) Specified Denomina- tions: (i) Calculation Amount: EUR 100,000 EUR 100,000 "
+    - _ME  C.2 Denomination currency of the Bonds  Danish kroner ("DKK")"  C.5 Description of any restriction of the negotiability of the securities  Not relevant; The Bonds are negotiable instruments issued in bulk.
+    - _SS  Denomination Currency: DKK 7.
+    - _SS  Denomination: Interest and payment  0.01  8.
+    - _SS  Specified Currency or Currencies: Euro ("EUR") 4.
+    - _SM  German Bundesobligationen  due January 2022 (ii) Comparable Issue Margin: +0.39 per cent.
+    - _MM  Final Redemption Amount of each Note  EUR 1,000 per Calculation Amount  24.
+    - _MM  Early Redemption Amount EUR 1,000 per Calculation Amount Early Redemption Amount(s) per Calculation Amount payable on redemption for taxation reasons or on event of default or other early redemption and/or the method of
+    - _SS  (i) Specified Denominations: EUR 100,000 and integral multiples of EUR 1,000 in excess thereof up to and including EUR 199,000.
+    - _SM  No Notes in definitive form will be issued with a denomination above EUR 199,000  (ii) Calculation Amount: EUR 1,000 7.
+- intent: DefineInstrumentAmount
+  examples: |
+    - "_MM (i) Series: £700,000,000 "
+    - _SS Up to SEK 1,000,000,000  Senior Unsecured Floating Rate Green Bonds
+    - _MEE  The maximum total nominal amount of the Bonds (the Initial Bonds and all Subsequent Bonds) may not exceed SEK 1,000,000,000 unless a consent from the Bondholders is obtained in accordance with Clause 15(e)(i). Each Subsequent Bond shall entitle its holder to Interest in accordance with Clause 8(a), and otherwise have the same rights as the Initial Bonds
+    - _SS MAXIMUM SEK 750,000,000
+    - "_SS (a) Series: Minimum NOK 10,000,000 and maximum NOK 900,000,000 "
+    - _ME 4 The Issuer may at one or more occasions after the First Issue Date issue Subsequent Bonds under these Terms and Conditions (each such issue, a “Subsequent Bond Issue”), until the total amount under such Subsequent Bond Issue(s) and the Initial Bond Issue equals SEK 750,000,000 always provided that the Incurrence Test (calculated pro forma including such issue) is met.
+    - "_MM Aggregate Principal Amount of Series: NOK 1,230,000,000 "
+    - "_SM (i) Series: NOK500,000,000 "
+    - "_SS  35 DocuSign Envelope ID: 3E63C2A5-355F-4747-8E34-92B7BE6BE6E8 1 TERMS AND CONDITIONS FOR VNV GLOBAL AB (PUBL) MAXIMUM SEK 750,000,000 SENIOR SECURED CALLABLE FIXED RATE BONDS 2021/2024 ISIN: SE0016275077 "
+    - "_SM Borrowing Limit: NOK 1,500,000,000 "
+    - "_MM (i) Series: EUR 500,000,000 "
+    - "_MM  Aggregate Nominal Amount: - 4 - (i) Series: SEK 120,000,000 "
+    - _ME 1 The aggregate amount of the bond loan will be an amount of up to SEK 750,000,000 which will be represented by Bonds, each of a nominal amount of SEK 1,250,000 or full multiples thereof (the “Nominal Amount”)
+    - "_MM - Series: SEK 600,000,000 "
+    - "_ME (i) Series: NOK 250,000,000 "
+    - _SS Issue of Minimum NOK 10,000,000 and maximum NOK 900,000,000 Fixed Rate Notes due February 2022 under the Euro Medium Term Note Programme
+    - "_MM (i) Series: NOK 16,600,000 "
+    - "_SM (a) Series: NOK 5,500,000,000 "
+    - "_SM (i) Series: USD 1,000,000,000 "
+    - "_MM - Tranche: SEK 1,000,000,000 "
+    - "_MM (i) Series: USD 75,000,000 "
+    - "_MM (i) Series: NOK 300,000,000 "
+    - "_MM  Aggregate Nominal Amount: (i) Series SEK 1,OOO,OOO,OOO "
+    - _MM Issue of a Series of  SEK 1,OOO,OOO,OOO
+    - _SS  The Issuer may at one or more occasions after the Issue Date issue Subsequent Bonds under the Terms and Conditions, until the total amount under such Subsequent Bond Issue(s) and the Bond Issue equals USD 100,000,000. References to “Bayport” or the “Group” refer in this Prospectus to the Company and its subsidiaries from time to time, unless otherwise indicated by the context
+    - "_SS (i) Series: NOK900,000,000 "
+    - _MM  ISIN code NO0011041535 Currency for the bond issue NOK Borrowing Limit and Borrowing Amount Borrowing Limit NOK 3,000,000,000. • Borrowing Amount 1st trance NOK 1,000,000,000
+    - "_MM (i) Series: USD 600,000,000 "
+    - "_MM Series: U.S.$1,250,000,000 "
+    - "_ME (ii) Tranche: NOK 250,000,000 "
+    - "_MM (a) Series: SEK 500,000,000 "
+    - _MEE  The total nominal amount of the Initial Bonds is SEK 550,000,000. All Initial Bonds are issued on a fully paid basis at an issue price of one hundred (100) per cent
+    - _SM Issue of NOK 5,500,000,000 Floating Rate Covered Notes due June 2026 (extendable to June 2027)
+    - "_MM (ii) Tranche: SEK 120,000,000 "
+    - "_SM Aggregate Nominal Amount: (1) Series: EUR 75,000,000 "
+    - "_SM (ii) Tranche: EUR 75,000,000 "
+    - "_MM Aggregate Principal Amount: NOK 500,000,000 "
+    - "_MM - Tranche: SEK 600,000,000 "
+    - "_MM Aggregate Principal Amount of Series: NOK 500,000,000 § 1 (2) Form "
+    - _ME (ii) Tranche SEK l,OOO,OOO,OOO
+    - _MM GBP 200,000,000 0.375 per cent. Fixed Rate Notes due 15 November 2024 (the Notes) pursuant to its EUR 30,000,000,000 Euro Medium Term Note Programme, to be consolidated with the existing GBP 500,000,000 0.375 per cent. Fixed Rate Notes due 15 November 2024 (the Existing Notes)
+    - _MM Gesamtnennbetrag (in Worten) NOK eine Milliarde Aggregate Principal Amount (in words) NOK one billion
+    - "_MM (ii) Tranche: EUR 500,000,000 "
+    - "_MM (ii) Tranche: NOK 16,600,000 "
+    - "_MM (b) Tranche: SEK 500,000,000 "
+    - _MM Issue of SEK 600,000,000 Floating Rate S.0, Bonds due 30 September 2026 under the €10,000,000,000 Euro Medium Term Note and S.O. Bond Programme
+    - "_SS (b) Tranche: Minimum NOK 10,000,000 and maximum NOK 900,000,000 "
+    - _MM This prospectus (the “Prospectus”) has been prepared by Bayport Management Ltd (the “Company” or the “Issuer” and together with its subsidiaries from time to time, the “Group”), registration number 54787/C1 GBL, LEI 549300MHJ6KEDPWPMN38, in relation to the application for admission to trading of the Company’s USD 80,000,000 subordinated fixed rate social bonds 2019/2022 with ISIN NO0010871601 (the “Bonds”) issued on 19 December 2019 (the “Issue Date”) (the “Bond Issue”) in accordance with the terms and conditions for the Bonds (the “Terms and Conditions”) on Nasdaq Stockholm Sustainable Bond List (“Nasdaq Stockholm”).
+    - "_MM (ii) Tranche: GBP 450,000,000 "
+    - "_MM Total initial principal amount: $750,000,000 "
+    - "_SS (ii) Tranche: NOK900,000,000 "
+    - _MM (ii) Tranche SEK 500,000,000
+    - "_SM (b) Tranche: NOK 5,500,000,000 "
+    - "_ME Borrowing Amount 1st tranche: NOK 1,000,000,000 "
+    - _ME  The total nominal amount of the Initial Bonds is SEK 500,000,000 (the “Initial Bond Issue”)
+    - _MM Gesamtnennbetrag NOK 1.000.000.000 Aggregate Principal Amount NOK 1,000,000,000
+    - "_SM 0) —Senes: (1) —Tranche: EUR 25,000,000 EUR 25,000,000 "
+    - "_SM First Tranche: NOK 750,000,000 "
+    - "_MM (ii) Tranche: USD 75,000,000 "
+    - "_MM Tranche: U.S.$1,250,000,000 "
+    - "_MM Total initial principal amount: $900,000,000 "
+    - "_SM (ii) Tranche: USD 1,000,000,000 "
+    - _SS Issue of NOK 16,600,000 Equity Linked Notes due 2023
+    - "_MM - Series: SEK 1,000,000,000 "
+    - "_SS PROSPECTUS REGARDING THE LISTING OF USD 80,000,000 SUBORDINATED FIXED RATE SOCIAL BONDS 2019/2022 ISIN: NO0010871601 "
+    - "_MM  Aggregate Nominal Amount: EUR 500,000,000 "
+    - "_MM (ii) Tranche: $600,000,000 "
+    - _SS  Notes due 2022  under the €4,000,000,000 Euro Medium Term Note Programme PART A - CONTRACTUAL TERMS  Terms used herein shall be deemed to be defined as such for the purposes of the Conditions (the "Conditions") set forth in the Base Prospectus dated 16 February 2012 which constitutes a base prospectus (the "Base Prospectus") for the purposes of the Prospectus Directive (Directive 2003/71/EC, as amended) (the "Prospectus Directive").
+    - _SS  EUR 500,000,000 EUR 500,000,000 99.297 per cent.
+- intent: DefineAgent
+  examples: |
+    - "_SM BOND TRUSTEE: Nordic Trustee AS, a company existing under the laws of Norway with registration number 963 342 624 and LEI- code 549300XAKTM2BMKIPT85. "
+    - _MM "Agent" means Intertrust (Sweden) AB, reg. no. 556625-5476, P.O. Box 16285, SE-103 25 Stockholm, Sweden or another party replacing it, as Agent, in accordance with these Terms and Conditions.
+    - _MM The representative of the bondholders is Nordic Trustee AS
+    - _MEE The Bond Trustee is Nordic Trustee AS, Postboks 1470 Vika, NO-0116 Oslo, Norway.
+    - _ME “Trustee” means the Holders’ agent under these Terms and Conditions and, if relevant, the other Finance Documents, from time to time; initially Nordic Trustee & Agency AB (publ) (reg.no. 556882-1879, P.O. Box 7329 SE-103 90 Stockholm, Sweden).
+    - _MM "Agent" means Nordic Trustee & Agency AB (publ), reg. no. 556882-1879, P.O. Box 7329, SE-103 90 Stockholm, Sweden or another party replacing it, as Agent, in accordance with these Terms and Conditions.
+    - "_MEE (h) Agent: Citibank, N.A. for the Notes to be represented by the Regulation S Global Note  Citibank, N.A. for the Notes to be represented by the Rule 144A Global Note "
+    - _MEE “Trustee” refers to Citibank, N.A., London Branch, as trustee on behalf of the holders of Notes
+    - "_ME Trustee: Norsk Tillitsmann ASA, Postboks 1470 Vika, NO-0116 Oslo, Norway "
+    - _SM  (iii) Special Calculation Agent: Fiscal Agent 22.
+- intent: Irrelevant
+  examples: |
+    - _ME There is a risk that insufficient training or improper behaviour will negatively affect the Group’s reputation (see “Reputational risk” above) and lead to time and cost consuming legal processes, 9  which would adversely affect the Group’s income statement via reduced growth and on the balance sheet through high impairments should collections be negatively impacted.
+    - "_MM Redemption/Payment Basis: Subject to any purchase and cancellation or early redemption, the Instruments will be redeemed on the Maturity Date at 100 per cent."
+    - "_MEE Any clearing system(s) other than DTC, Euroclear and Clearstream, Luxembourg and the relevant identification number(s): Not Applicable  (h) Agent: Citibank, N.A. for the Notes to be represented by the Regulation S Global Note"
+    - "_MEE Listing:"
+    - "_EE Delivery:"
+    - _ME The foregoing shall not restrict or prevent (a) that financial indebtedness in connection with such Security allowed pursuant to Negative Pledge (a) (i)-(iii) can be incurred and permitted to subsist; and (b) Part-owned Subsidiaries from freely assuming any financial indebtedness.
+    - "_ME Date interest starts accruing: May 15, 2013  Interest Payment Dates: January 15 and July 15 of each year, subject to the Day Count Convention, commencing January 15, 2014."
+    - "_ME  (ii) Estimate of total expenses related to admission to trading: EUR 1,000  RATINGS The Notes are expected to be assigned the following ratings: A1 by Moody's Investors Service (Nordics) AB  "
+    - _ME For the purpose of Standard & Poor’s rating, an obligation rated AAA indicates that the issuer’s capacity to meet its financial commitments on the obligation is extremely strong.
+    - "_MEE Common Code: 234299417  43."
+    - _ME  B.15 Description of the Issuer's main activities Nykredit’s main activities are mortgage banking in Denmark and a number of other European countries.
+    - "_ME  (iii) Whether redemption of the Cash Settlement and/or Physical Delivery Notes will be by (a) Cash Settlement or (b) Physical Settlement or (c) in certain circumstances depending on the closing price of the Shares, Cash Settlement or Physical Delivery at the option of the Issuer:  (iv) Provisions for determining Determination Agent determination Final Redemption Amount where calculation by reference to one or more Shares is impossible or impracticable or otherwise disrupted:  (v) Weighting for Underlying: each Not Applicable  (vi) Averaging Dates: Not Applicable  (vii) Averaging Date Disruption:"
+    - _ME Not Applicable (ix)
+    - _MM The Offering, Listing and the Bonds are governed by Finnish law and any dispute arising in relation to the Bonds shall be settled exclusively by Finnish courts in accordance with Finnish law.
+    - _EE That list is updated within five working days following the adoption of a decision under Article 16, 17 or 20 CRA Regulation.
+    - "_MM Put/Call Options: Not Applicable  14."
+    - _MM The information set out in those sections of this Offering Memorandum describing clearing and settlement is subject to any change or reinterpretation of the rules, regulations and procedures of DTC currently in effect.
+    - _ME Not Applicable  27.
+    - "_ME Restrictions on the free transferability of the securities: Not Applicable  Purpose/Use of proceeds: As specified in the Base Prospectus section 13.4.1."
+    - "_SS Redemption price on maturity: 100  Interest and payment 13."
+    - "_MM OPERATIONAL INFORMATION  (a) ISIN:"
+    - _SM Failed refinancing trigger  Securities depositary and regulated market  25.
+    - _EE (i) Method of distribution
+    - _MEE 4D surveys are a type of HD3D specifically addressing reservoir monitoring and refer to repetitive data acquisition for a given field enabling the data to be reviewed for developments over time.
+    - _ME Note that this does not necessarily mean that the Notes will then be recognised as eligible collateral for Eurosystem monetary policy and intra day credit operations by the Eurosystem at any time during their life.
+    - "_MM  “Material Adverse Effect” means a material adverse effect on:  (a) the ability of the Issuer to perform and comply with its obligations under any of the Finance Documents to which it is a party; or  (b) the validity or enforceability of any of the Finance Documents."
+    - "_ME  \"Subordinated Debt\" means any loan made to the Issuer as debtor, if such loan:  (a) according to its terms is subordinated to the obligations of the Issuer under the Finance Documents;  (b) according to its terms has a final redemption date or, when applicable, early redemption dates or instalment dates which occur after the Final Maturity Date; and  (c) according to its terms yield only payment-in-kind interest and/or cash interest that is payable after the Final Maturity Date unless a Restricted Payment is permitted under the Finance Documents."
+    - _ME The Bonds are denominated in SEK and each Bond is constituted by these Terms and Conditions.
+    - "_MM Whether Rule 144A and private placement sales in the United States are permitted to be made:"
+    - "_ME Additional Financial Centre(s): Not Applicable  22."
+    - "_MM Maturity Date: Interest Payment Date falling in or nearest to June 2026  8."
+    - "_ME Final Redemption Amount: £1,000 per Calculation Amount  26."
+    - _MM Management Name Position  Sonja Horn Chief Executive Officer Anders Olstad Chief Financial Officer Ketil Hoff Chief Operating Officer Per Ola Ulseth Executive Vice President Project Development Åse Lunde Executive Vice President Digital & Business Development Tore Bakken Executive Vice President Market and Commercial Real Estate Development Kristine Hilberg Executive Vice President HR & Organization  Statutory auditors
+    - "_MM (a) Series Number: 2280  (b) Tranche Number: 1  2."
+    - "_MM Extended Final Maturity Date: Not Applicable  10."
+    - "_MM Specified Currency or Currencies: £ (GBP)  4."
+    - _ME of total assets of the Group.
+    - _MEE Whilst the designation is specified as "no" at the date of these Final Terms, should the Eurosystem eligibility criteria be amended in the future such that the Notes are capable of meeting them the Notes may then be deposited with one of the ICSDs as common safekeeper.
+    - _MEE  “Group”, “we”, “us” and “our” refer to the Company and its consolidated subsidiaries.
+    - "_MM Yes ratings assigned to the Programme:"
+    - _MM No action has been, or will be, taken to permit a public offering in any jurisdiction where action would be required for that purpose.
+    - _EE DISTRIBUTION  (i)
+    - "_ME  (b) Estimated net proceeds: U.S.$1,246,500,000  (c) Estimated total expenses: Not Applicable  4."
+    - "_MM Floating Rate Note Provisions: Applicable  (i) Period to (and including) the Maturity Date:"
+    - _ME A TRANSACTION MEANS THAT THE SECRETARY OF STATE OF THE STATE OF NEW HAMPSHIRE HAS PASSED IN ANY WAY UPON THE MERITS OR QUALIFICATIONS OF, OR RECOMMENDED OR GIVEN APPROVAL TO, ANY PERSON, SECURITY, OR TRANSACTION.
+    - _MM Global Note (U.S.$1,000,170,000 nominal amount) registered in the name of a nominee for a common depositary for Euroclear and Clearstream, Luxembourg  Rule 144A Global Note (U.S.$249,830,000 nominal amount) registered in the name of a nominee for DTC  (b) New Global Note
+    - _ME Competition for skilled staff in the Group’s different business areas is high and may increase in the future since the Group is continuingly growing in existing markets as well as potentially expanding into new markets and there is always a high demand for skilled labour in the markets where the Group operates.
+    - "_MEE Luxembourg Stock Exchange   regulated market   Other:  II./2 ADDITIONAL INFORMATION RELATED TO ALL NOTES  Third Party Information  Where information has been sourced from a third party the Issuer confirms that any such information has been accurately reproduced and as far as the Issuer is aware and is able to ascertain from information available to it from such third party, no Not applicable facts have been omitted which would render the reproduced information inaccurate or misleading."
+    - "_MM  (iv) Additional Business Centres: Not Applicable  (v) Fixed Coupon Amount: EUR 0.10 per Calculation Amount, provided that, in relation to the First Interest Period, the Fixed Coupon Amount shall be equal to the Broken Amount  (vi) Broken Amount: EUR 0.05 per Calculation Amount in respect of the period from and  Execution version  including the Issue Date to but excluding the first Interest Payment Date."
+    - _ME = x < 55% 8,107 6.84% NOK 9,786,327,698 6.92%  55 <
+    - _MEE Not Applicable  46.
+    - "_ME  Standard & Poor’s: A+  "
+    - _ME There is a risk that any damage to the reputation or reduced trust for the Group will have an adverse effect on the Group’s ability to attract or retain future funding for its operations, which would result in more expensive costs for capital and, in extension, an adverse effect on the Group’s financial position.
+    - _ME Julius Polins Fond 1,098,082 10 largest shareholders 43,357,630 Other 31,744,139 Total 75,101,769 Treasury shares 0
+    - "_EE Method of Distribution: Syndicated  (i)"
+    - "_ME Other: Not Applicable  28."
+    - _MEE Not applicable
+    - _EE DISTRIBUTION  Intended to be held in a manner which would allow Yes.
+    - "_EE Signed on behalf of the Issuer:  "
+    - _ME  § 7 DIE EMISSIONSSTELLE UND DIE ZAHLSTELLEN  (1) Ernennung; Bezeichnete Geschäftsstellen.
+    - _MM 3  PRICING TERMS ...........................................................................................................................................
+    - "_MM Aggregate Nominal Amount: Tranche: Series: Issue Price: SEK 300,000,000 SEK 1,300,000,000 99,910 per cent."
+    - "_ME RATINGS  Ratings:"
+    - "_ME The following ratings reflect ratings assigned to Notes of this type issued under the Programme generally:  AAA by S&P  S&P is established in the European Union and is registered under Regulation (EC) No. 1060/2009 (as amended) (the CRA Regulation)  3."
+    - _ME A+ Capital Centre I (ROs) AAA Nykredit Realkredit
+    - _ME  6 TEFRA RULES
+    - "_ME Luxembourg Stock Exchange  (ii) Admission to trading: Application has been made for the Notes to  be admitted to trading on the regulated market of the Luxemboug Stock Exchange  with effect from the Issue Date  (iii) Estimate of total expenses related to EUR 3,600  admission to trading:  (iv)"
+    - _MM Zero Coupon Note Provisions Not Applicable  16.
+    - _ME Sitz der relevanten Wertpapierbörse Luxemburg Location of relevant stock exchange Luxembourg  MITTEILUNGEN (§ 12) NOTICES (§ 12)  
+    - _SM Neither the Issuer nor any Dealer has authorised, nor do they authorise, the making of any offer of the Securities in any other circumstances.
+    - _MM An application for listing will be sent to the Oslo Børs.
+    - "_ME of their nominal amount (further particulars specified below)  lO. Change of Interest or Redemption/  Payment Basis: Not Applicable  11."
+    - "_EE Other final terms: Not Applicable  DISTRIBUTION  33."
+    - _ME The Bonds bear interest at a fixed interest rate of 0.10 per cent.
+    - "_EE Secondary (uridashi) offerings of the  Instruments is to be made in Japan: No  21."
+    - _EE  Other investors may participate by making bids through a member of NASDAQ OMX Copenhagen A/S.
+    - _MM  B.5 Description of the group and the Issuer's group affiliation  Nykredit is a wholly owned subsidiary of Nykredit Holding A/S.
+    - _MM  Nykredit draws the attention of prospective investors to the fact that: ■ This summary should be read as an introduction to the Base Prospectus; ■ Any decision to invest in the Bonds should be founded on the Base Prospectus in its entirety; ■ If an action involving the information contained in the Base Prospectus is brought before a court of law pursuant to national law in the member states, the plaintiff investor may be obliged to bear the costs of translating the Base Prospectus before the proceedings commence; and ■ Only the persons who have submitted the summary or any translations thereof may incur civil liability, but only provided that the summary is misleading, incorrect or discrepant when read in conjunction with other parts of the Base Prospectus, or it does not contain key information when read in conjunction with the other parts of the Base Prospectus, which key information will facilitate investors' decision on investment in the Bonds.
+    - _MM  The Issuer carries on mortgage banking activities in accordance with the Danish Financial Business Act.
+    - _SS  Definitions in the Base Prospectus have the same meaning in the Final Bond Terms, unless otherwise indicated by the context.
+    - _SM  Place of Listing: The Bonds will be admitted to trading on the regulated market of NASDAQ OMX Copenhagen A/S 21.
+    - _EE  10  Nykredit  Nykredit is not aware of any expenses which an investor may be charged by a financial intermediary nor are they of relevance to Nykredit.
+    - _ME  The outlook for Nykredit has not deteriorated significantly since the end of the last financial period.
+    - _MM  Authorisations and approvals pursuant to which the Bonds have been issued:  Approved by the Finance Committee 25 Febrary 2014  3  Nykredit  32. Credit rating of the Bonds: AAA S&P  4  Nykredit  Annex A SUMMARY This summary is based on information requirements, each requirement referred to as an element.
+    - _SM  Registered Bondholders: No 28.
+    - _ME  Representation of the Bondholders is not possible.
+    - _ME  In case of failed risk management, Nykredit may incur financial losses, and Nykredit's reputation may be damaged.
+    - _EE  E.4 Interests which are material to issuance, including conflicts of interest  With respect to the Bonds, the stakeholders are the borrowers whose loans have been funded by the Bonds, the Bondholders, Nykredit and public authorities.
+    - _MEE  Nykredit is subject to the balance principle, and hence Nykredit may only to a limited extent assume risk other than credit risk.
+    - _MM  Agreements on market making: Nykredit has not entered into any agreement with any enterprise concerning market making in the Bonds.
+    - _ME  Nykredit may purchase the Bonds (or part thereof) prior to their maturity and keep such Bonds as self-issued Bonds or amortise them by cancellation.
+    - _MM  5  Nykredit  - Financial intermediaries using the Base Prospectus are obliged to state at their website that they use the Base Prospectus in accordance with the related commitments and conditions.
+    - _SS  ISIN: DK0009798803 4.
+    - _SM  Information on the outstanding amount of Bonds:  The outstanding amount of Bonds will be announced on an ongoing basis at the website of NASDAQ OMX Copenhagen A/S: www.nasdaqomxnordic.com  25.
+    - _SS  Payment Periods: 1/1 - 31/3, 1/4 - 30/6, 1/7 - 30/9, 1/10 - 31/12 13. Business Days: Danish Business Days 14.
+    - _ME  Nykredit  cover the holders of the Covered Securities insufficiently, the holders of the residual claims have a preferential right to the assets of Nykredit Realkredit In General.
+    - _SM  JulY - 1.
+    - _SM  October 15.
+    - _SM  Januay - 1.
+    - _SS  Coupon Interest: 2.5% p.a.
+    - _MM  A.2 Consent to use the Base ■ Prospectus in connection with a subsequent resale  The Issuer expressly consents to the use of the Base Prospectus for the resale or final placement of the Bonds through financial intermediaries; The consent will be in force as long as the Base Prospectus is valid - ie up to 12 months from the date of approval subject to the prior revocation, cancellation or replacement of the Base Prospectus in which case the Issuer will release a stock exchange announcement to this effect.
+    - _ME  By far the largest part of Nykredit's activities are carried on in Denmark.
+    - _SS  This document constitutes the Final Terms of the Notes described herein for the purposes of Article 5.4 of the Prospectus Directive.
+    - _SS  These Final Terms contain the final terms of the Notes and must be read in conjunction with such Base Prospectus.
+    - _SS  Full information on the Issuer and the offer of the Notes described herein is only available on the basis of the combination of these Final Terms and the Base Prospectus.
+    - _SS  (i) Series Number: 4 (ii) Tranche Number: 1 3.
+    - _SS  Issue Price:
+    - _SM  Put Option Applicable.
+    - _SM  Call Option Not Applicable 21.
+    - _SM  See Appendix 2 (Change of  Control Put Option) for details  (i) Optional Redemption Date(s): See Appendix 2 (Change of Control Put
+    - _MM  Other final terms: DISTRIBUTION 30.
+    - _MM  Deutsche Bank AG, London Branch  UK-3001555-v2  - 4 -  70-40519554  31.
+    - _SS  of the Aggregate Nominal Amount  UK-3001555-v2  - 1 -  70-40519554  6.
+    - _MM  Form of Notes:  26.
+    - _MM  Additional Financial Centre(s) or other special provisions relating to payment dates: 28.
+    - _MM  Talons for future Coupons or Receipts to be attached to Definitive Notes (and dates on which such Talons mature): 29.
+    - _MM  Additional selling restrictions: Not Applicable PURPOSE OF FINAL TERMS These Final Terms comprise the final terms required for issue and admission to trading on the regulated market of the Luxembourg Stock Exchange of the Notes described herein pursuant to the €4,000,000,000 Euro Medium Term Note Programme of TDC A/S.
+    - _MM  U.S.
+- intent: DefineInstrumentMaturityDate
+  examples: |
+    - _SS  Final Bond Terms dated 18 June 2014 These Final Bond Terms only apply to the stated ISIN(s).
+    - _ME  C.9 Interest rate and yield- to-maturity; deferral of  interest; redemption on maturity; name of the bond agent  The bonds mature 1 October 2047 The nominal interest rate is 2.50% p.a.
+    - _SS  Maturity Date; 14 February 2022, subject to adjustment in accordance with the Following Business Day Convention
+    - _SS  Maturity Date; 2 June 2022, subject to adjustment in accordance with the Following Business Day Convention
+    - _ME Maturity Date; 1st February 2030
+    - _ME 9 The Maturity Date is 1st February 2030
+    - _SS  Maturity Date; 01-10-2040
+    - _SS  The maturity of the Bonds is on the date falling five (5) years after the First Issue Date (as defined in the Terms and Conditions of the Bonds) unless the Issuer prepays the Bonds before their maturity
+    - _SS Final Bond Terms dated 15 October 2014
+    - _SS Maturity Date; 01/04/2020  6.
+    - _SM Maturity Date; 20 March 2024
+    - _ME “Original Maturity Date” means the 7th anniversary of the Effective Date.
+    - _MM  Maturity Date; Interest Payment Date falling in or nearest to June 2026
+    - _MM Maturity Date; 30 September 2026
+    - _MM Maturity Date; 1 February 2027
+    - _MM "Final Maturity Date" means 1 July 2024.
+    - _MM “Final Redemption Date” means 24 June 2024
+    - _MM  Maturity Date; 9 August 2023
+    - _SM Issue of U.S.$1,250,000,000 0.250% Fixed Rate Notes due 9 August 2023 Guaranteed by certain regions of Sweden and certain municipalities of Sweden under the Euro Note Programme
+    - _SS The Notes will mature at 100% of their principal amount on July 15, 2020
+    - _SM Maturity Date; July 15, 2020
+    - _SM  Maturity Date; 15 November 2019
+    - _SS Maturity Date; May 15, 2018
+    - _MM Maturity Date; May 15, 2018
+    - _MM Maturity Date; January 15, 2024
+    - _ME Maturity Date; May 15, 2043
+    - _SS  The Notes will mature on De- cember 15, 2018
+    - _SS Issue of USD 1,000,000,000 Series 2012-7 1.75 per cent. Covered Bonds due November 2019 (the Covered Bonds) under the EUR 25,000,000,000 Global Medium Term Covered Note Programme
+    - _SS 8 Maturity Date; 25 June 2029
+    - _SS 000 1,125 % Festverzinsliche Schuldverschreibungen fällig 22. Januar 2018
+    - _SS NOK 500,000,000 1.125 per cent. Fixed Rate Notes due 22 January 2018 NOK 500.000.000 1,125 % Festverzinsliche Schuldverschreibungen fällig 22
+    - _SS Issue of EUR 75,000,000 1.645 per cent. Fixed Rate Notes due 25 June 2040
+    - _SM Maturity Date; Interest Basis; 25 June 2040 1.645 per cent. Fixed Rate (further particulars specified below)
+    - _SM Maturity Date; 26 June 2045
+    - _ME 8 Maturity Date; 11 January 2027
+    - _ME  Maturity Date; 20 November 2028 (such date prior to any adjustment, the "Scheduled Maturity Date"), subject to - 5 - adjustment in accordance with the Following Business Day Convention
+    - _MM  Maturity Date; 12 April 2022
+    - _MM 8 Maturity Date; 24 August 2027
+    - _ME Maturity Date 22 August 2022
+    - _ME Redemption Month and Year August 2022
+    - _MM  Maturity Date; 14 January 2022
+    - _MM  Fälligkeitstag Maturity Date 16. April 2024 April 16, 2024
+    - _SS NOK 1.000.000.000 3,25 % Schuldverschreibungen fällig am 16. April 2024 (die "Schuldverschreibungen") NOK 1,000,000,000 3.25 per cent. Notes due April 16, 2024 (the "Notes")
+    - _MM Letzter Zinszahlungstag 16. April 2024 Last Interest Payment Date April 16, 2024
+    - _ME Maturity Date 21 April 2023
+    - _MM  Maturity Date; 15 September 2025
+    - _MM  Maturity Date; 4 May 2034
+    - _MM  Maturity Date; 15 December 2025
+    - _MM (ii) Calculation Amount; SEK 1,000,000 (i) Issue Date; 24 May 2021 (ii) Interest Commencement 18 January 2021 Date; Maturity Date; 18 January 2024
+    - _ME Maturity Date; 4 March 2033
+    - _SM  Scheduled Maturity Date; 4 March 2033, subject to adjustment in accordance with the Modified Following Business Day Convention
+    - _MM  Maturity Date; 19 March 2031
+    - _MM  Maturity Date; 9 January 2023, subject to adjustment in accordance with the Business Day Convention (i) in the event such date is not a Business Day or (ii) such that the Maturity Date shall always be at least five (5) Business Days following the Determination Date
+    - _MM  Maturity Date; 15 November 2024
+    - _MM  Maturity Date; 9 June 2029
+    - _MM  Maturity Date; 8 July 2025
+    - _ME  Maturity Date; 15 September 2025
+    - _MM  Maturity Date; 17 February 2023
+    - _ME Maturity; 11 January 2027
+    - _SS  Final Terms dated 29 February 2012  TDC A/S Issue of  EUR 500,000,000 3.75 per cent.
+    - _SM  Maturity Date: 2 March 2022 9.
+last-updated-unix: 1636632652273.9883

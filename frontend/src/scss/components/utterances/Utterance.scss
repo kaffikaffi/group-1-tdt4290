@@ -1,0 +1,74 @@
+@import "../../imports/colors";
+
+.utterance {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	transition: all ease-in-out 50ms;
+	color: $white;
+	box-shadow: 0 10px 5px -7px rgba(0, 0, 0, 0.8);
+	background-color: rgba($dark, 0.4);
+	padding: 10px 10px;
+	margin: 5px auto;
+	width: 90%;
+	border-radius: 5px;
+
+	.utterance-classification {
+		width: 10%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.utterance-classification-text {
+			text-decoration: none;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			white-space: nowrap;
+			border: 1px solid white;
+			font-size: 11px;
+			border-radius: 4px;
+			padding: 0 4px 0 4px;
+		}
+
+		.utterance-confidence {
+			flex: 1;
+			font-size: 11px;
+		}
+	}
+
+	.utterance-text {
+		flex: 0.9;
+		padding: 0 15px;
+		overflow: hidden;
+		position: relative;
+		display: inline-block;
+		margin: 0 5px 0 5px;
+		text-decoration: none;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.utterance-intent {
+		flex: 0.3;
+		padding: 0 15px;
+		overflow: hidden;
+		position: relative;
+		display: inline-block;
+		margin: 0 5px 0 5px;
+		text-decoration: none;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		text-align: center;
+	}
+
+	.utterance-entityCount {
+		flex: 0.1;
+		text-align: center;
+	}
+
+	&:hover {
+		cursor: pointer;
+		transform: scale(0.99);
+		transition: all ease-in-out 50ms;
+	}
+}

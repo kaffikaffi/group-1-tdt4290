@@ -1,0 +1,5 @@
+@mixin hover($scale, $transitionTime) {
+	cursor: pointer;
+	transform: scale($scale);
+	transition: all ease-in-out $transitionTime;
+}

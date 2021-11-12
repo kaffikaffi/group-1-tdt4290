@@ -1,0 +1,12 @@
+@import "../imports/colors";
+
+.viewnext {
+	.viewnext-icon {
+		color: $yellow;
+		font-size: 50px;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

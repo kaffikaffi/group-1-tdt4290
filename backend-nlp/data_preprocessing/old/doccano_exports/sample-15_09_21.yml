@@ -1,0 +1,177 @@
+version: "2.0"
+
+nlu:
+- intent: DefineIssuerIncorperationPlace
+  examples: |
+    - These Final Terms and the Base Prospectus are available on the Issuer's website https://entra.no or on the Issuer's visit address, Biskop Gunnerus gate 14, 0185 Oslo, Norway, or their successor (s). Entra ASA 
+    -  Entra ASA, Biskop Gunnerus gate 14, 0185 Oslo, Norway
+    - Key information on the Issuer Disclosure requirements Disclosure Who is the issuer of the securities Domicile and legal form The Issuer is a public limited liability company incorporated in Norway and primarily organized under the laws of Norway, including the Public Limited Companies Act
+    -  Place of registration: VP Securities A/S, Weidekampsgade 14, PO Box 4040, DK-2300 Copenhagen S 
+    - 2 The Issuer's registered office and legal form, legislation applying to the Issuer and country of incorporation Nykredit Realkredit A/S is a Danish public limited company. The Issuer carries on mortgage banking activities in accordance with the Danish Financial Business Act. Nykredit's registered address is Kalvebod Brygge 1-3, DK-1780 Copenhagen V, Denmark. 
+    - B.2 The Issuer's registered office and legal form, legislation applying to the Issuer and country of incorporation Nykredit Realkredit A/S is a Danish public limited company. The Issuer carries on mortgage banking activities in accordance with the Danish Financial Business Act. Nykredit's registered address is Kalvebod Brygge 1-3, DK-1780 Copenhagen V, Denmark. 
+    - Petroleum Geo-Services ASA, a company incorporated under the laws of the Kingdom of Norway (the “Compa- ny”), is offering $150
+    - Single Platform Investment Repackaging Entity SA  (a public limited liability company (société anonyme) incorporated under the laws of Luxembourg with registered office at 51, avenue John F. Kennedy, L-1855 Luxembourg, having a share capital of EUR 31,000, and duly registered with the Registre de Commerce et des Sociétés, Luxembourg with number B206430) (“SPIRE”) 
+
+- intent: DefineInstrumentMaturityDate
+  examples: |
+    - Maturity Date: 1st February 2030 
+    - 9 The Maturity Date is 1st February 2030 
+    -  Maturity Date: 01-10-2040 
+    - Final Bond Terms dated 15 October 2014 
+    - Final Bond Terms dated 15 October 2014 
+    - “Original Maturity Date” means the 7th anniversary of the Effective Date. 
+    -  Maturity Date: Interest Payment Date falling in or nearest to June 2026 
+    - “Final Redemption Date” means 24 June 2024
+    -  Maturity Date: 9 August 2023 
+    - Issue of U.S.$1,250,000,000 0.250% Fixed Rate Notes due 9 August 2023 Guaranteed by certain regions of Sweden and certain municipalities of Sweden under the Euro Note Programme 
+    - Maturity Date: May 15, 2018 
+    - Maturity Date: May 15, 2018 
+    - Maturity Date: January 15, 2024 
+    - Maturity Date: May 15, 2043 
+    -  The Notes will mature on De- cember 15, 2018
+    -  Maturity Date: 15 November 2019 
+    - Issue of USD 1,000,000,000 Series 2012-7 1.75 per cent. Covered Bonds due November 2019 (the Covered Bonds) under the EUR 25,000,000,000 Global Medium Term Covered Note Programme 
+    -  Maturity Date: 20 November 2028 (such date prior to any adjustment, the "Scheduled Maturity Date"), subject to - 5 - adjustment in accordance with the Following Business Day Convention 
+    - Maturity Date 22 August 2022 
+    - Redemption Month and Year August 2022 
+    -  Maturity Date: 14 January 2022 
+    -  Fälligkeitstag Maturity Date 16. April 2024 April 16, 2024 
+    - NOK 1.000.000.000 3,25 % Schuldverschreibungen fällig am 16. April 2024 (die "Schuldverschreibungen") NOK 1,000,000,000 3.25 per cent. Notes due April 16, 2024 (the "Notes") 
+    - Letzter Zinszahlungstag 16. April 2024 Last Interest Payment Date April 16, 2024 
+    -  Maturity Date: 15 December 2025 
+    -  Maturity Date: 15 November 2024 
+    - 8 Maturity Date: 11 January 2027 
+    - Maturity: 11 January 2027 
+
+- intent: DefineIssuerName
+  examples: |
+    -  Entra ASA  Final Terms – 2.49% Entra ASA Unsecured Open Green Bond Issue 2021/2030 ISIN: NO0011041535 
+    - 2.49%Entra ASA Unsecured Open Bond Issue 2021/2030 
+    - Final Terms – 2.49% Entra ASA Unsecured Open Green Bond Issue 2021/2030 ISIN: NO0011041535 
+    - New Final Bond Terms for Nykredit Realkredit A/S's Base Prospectus dated 15 May 2017 
+    - In connection with the opening of new ISINs under Nykredit Realkredit A/S's Base Prospectus dated 15 May 2017 with amendments, Nykredit issues new Final Bond Terms. 
+    - Nykredit Realkredit A/S's Base Prospectus dated 15 May 2017 and the relevant Final Bond Terms are available for download in Danish and English. In the event of discrepancies between the original Danish text and the English translation, the Danish text shall prevail. The documents can be found on Nykredit's website at nykredit
+    - The Bonds have been issued pursuant to Nykredit Realkredit A/S's base prospectus dated 15 May 2017 (the "Base Prospectus"). 
+    - The Bonds have been issued pursuant to Nykredit Realkredit A/S's base prospectus dated 17 June 2014 (the "Base Prospectus"). 
+    -  1 Legal name and secondary names of the Issuer Nykredit Realkredit A/S
+    - The Bonds have been issued pursuant to Nykredit Realkredit A/S's base prospectus dated 17 June 2014 and prospectus supplement no 1 dated 26 August (the "Base Prospectus"). 
+    - B.l Legal name and secondary names of the Issuer Nykredit Realkredit A/S. The issuer carries on business under the following secondary names: Industrikredit A/S, IRF Erhvervsfinansiering A/S, IRF Industrifinansiering A/S, IRF Industrikredit A/S, Nykredit A/S, Nykredit Industri A/S and Realkreditaktieselskabet Nykredit. 
+    - This prospectus (the “Prospectus”) has been prepared by Bayport Management Ltd (the “Company” or the “Issuer”), registration number 54787/C1 GBL, LEI 549300MHJ6KEDPWPMN38, in relation to the application for admission to trading of the Company’s USD 80,000,000 subordinated fixed rate social bonds 2019/2022 with ISIN NO0010871601 (the “Bonds”) issued on 19 December 2019 (the “Issue Date”) (the “Bond Issue”) in accordance with the terms and conditions for the Bonds (the “Terms and Conditions”) on Nasdaq Stockholm Sustainable Bond List (“Nasdaq Stockholm”). The Issuer may at one or more occasions after the Issue Date issue Subsequent Bonds under the Terms and Conditions, until the total amount under such Subsequent Bond Issue(s) and the Bond Issue equals USD 100,000,000
+    - ISSUER: Lithium SPV Limited, a private limited company incorporated in Jersey with registration number 136875 and LEI-code 213800F1DJSIYITA1H16. 
+    - #9861143/6 BOND TERMS  for Lithium SPV Limited 5.00% EUR 69,102,970 Limited Recourse PIK Notes 2021/2028 
+    - Storebrand Boligkreditt AS 
+    -  Whether TEFRA D or TEFRA C rules applicable or TEFRA rules not applicable or TEFRA D (Swiss practice): TEFRA not applicable 5 Signed on behalf of Storebrand Boligkreditt AS: 
+    - “Issuer” means VNV Global AB (publ) (reg. no. 556677-7917, Mäster Samuelsgatan 1, 1st floor, 111 44 Stockholm, Sweden)
+    - Terms and Conditions  Oscar Properties Holding AB (publ)  Up to SEK 1,000,000,000  Senior Unsecured Floating Rate Bonds 
+    - "Issuer" means Oscar Properties Holding AB (publ), limited liability company incorporated in Sweden with reg. no. 556870-4521. 
+    - Kommuninvest i Sverige Aktiebolag (publ) 
+    - These Final Terms comprise the final terms required for admission to the Official List of the Luxembourg Stock Exchange and admission to trading on the regulated market of the Luxembourg Stock Exchange of the issue of Notes described herein pursuant to the Euro Note Programme of Kommuninvest i Sverige Aktiebolag (publ). 
+    -  6 Signed on behalf of Kommuninvest i Sverige Aktiebolag (publ): 
+    - Issuer: Statoil ASA (“Statoil”)
+    - Issuer: Statoil ASA (“Statoil”)
+    - Issuer: Statoil ASA (“Statoil”). 
+    - Issuer: Statoil ASA (“Statoil”)
+    - Petroleum Geo-Services ASA $150,000,000 7.375% Senior Notes due 2018 
+    - “Company” or “PGS” refers to Petroleum Geo-Services ASA
+    - 15 November 2012 SpareBank 1 Boligkreditt AS 
+    -  Issuer: SpareBank 1 Boligkreditt AS 
+    - These Final Terms comprise the details required to list and have admitted to trading the issue of Covered Bonds described herein pursuant to the EUR 25,000,000,000 Global Medium Term Covered Note Programme of SpareBank 1 Boligkreditt AS. 
+    -  (i) Issuer: JPMorgan Chase & Co. 
+    - BMW Finance N.V. 
+    - NOK 500,000,000 Floating Rate Notes issued pursuant to the  Euro 50,000,000,000 Euro Medium Term Note Programme of  Bayerische Motoren Werke Aktiengesellschaft (“BMW AG”) BMW Finance N.V. (“BMW Finance”) BMW US Capital, LLC (“BMW US Capital”) BMW International Investment B.V. (“BMW Investment”) BMW Japan Finance Corp. (“BMW Japan”) 
+    - Aktiebolaget Svensk Exportkredit (publ) (Swedish Export Credit Corporation) (Incorporated in the Kingdom of Sweden with limited liability) ("SEK" or the "Issuer") Unlimited Programme for the Continuous Issuance of Debt Instruments Issue of a Series of USD 600,000,000 1.625 per cent. Instruments due 14 January 2022 (the "Instruments") 
+    - begeben von issued by  Daimler Canada Finance Inc. 
+    -  S-1 Im Namen der Emittentin unterzeichnet Signed on behalf of the Issuer  Daimler Canada Finance Inc.
+    - Aktiebolaget Svensk Exportkredit (publ) (Swedish Export Credit Corporation) (Incorporated in the Kingdom of Sweden with limited liability) ("SEK" or the "Issuer")  Unlimited Programme for the Continuous Issuance of Debt Instruments Issue of a Series of  GBP 450,000,000 0.125 per. cent Instruments due 15 December 2025 ("Instruments") 
+    - Signed on behalf of AKTIEBOLAGET SVENSK EXPORTKREDIT (publ): 
+    -  Issuer: KommuneKredit 
+    - These Final Terms comprise the details required to list the issue of Notes described herein pursuant to the listing of the EUR 30,000,000,000 Euro Medium Term Note Programme of KommuneKredit. 
+    - SBAB BANK AB (publ)  (Incorporated with limited liability in the Kingdom of Sweden) 
+    - Single Platform Investment Repackaging Entity SA  (a public limited liability company (société anonyme) incorporated under the laws of Luxembourg with registered office at 51, avenue John F. Kennedy, L-1855 Luxembourg, having a share capital of EUR 31,000, and duly registered with the Registre de Commerce et des Sociétés, Luxembourg with number B206430) (“SPIRE”) 
+
+- intent: DefineDenomination
+  examples: |
+    - Denomination – Each Bond NOK 1,000,000 Any restrictions on the free transferability of the securities
+    - Denomination – Each bond: NOK 1,000,000 - each and ranking pari passu among themselves 
+    -  Denomination:  Interest and payment 0.01 
+    - Securities Eight hundred (800) Bonds were issued in the Bond Issue, each Bond with a nominal amount of USD 100,000
+    -  Final Redemption Amount: NOK 2,000,000 per Calculation Amount 
+    -  (a) Specified Denominations: NOK 2,000,000 
+    - (b) Calculation Amount (in relation to calculation of interest for Notes in global form see Conditions): NOK 2,000,000 
+    - 1 The aggregate amount of the bond loan will be an amount of up to SEK 750,000,000 which will be represented by Bonds, each of a nominal amount of SEK 1,250,000 or full multiples thereof (the “Nominal Amount”)
+    - (c) The nominal amount of each Bond is SEK 1,250,000 (the "Nominal Amount"). The total nominal amount of the Initial Bonds is SEK 550,000,000
+    - (d) The minimum permissible investment in the Initial Bond Issue is SEK 1,250,000
+    -  (a) Specified Denomination(s): U.S.$200,000 and integral multiples of U.S.$1,000 in excess thereof 
+    - (b) Calculation Amount: U.S.$1,000 
+    -  Final Redemption Amount: U.S.$1,000 per Calculation Amount 
+    - Denominations: $1,000 and integral multiples of $1,000 
+    - Denominations: $1,000 and integral multiples of $1,000 
+    -  (a) Specified Denominations: USD 200,000 and integral multiples of USD 1,000 2 in excess thereof 
+    - (b) Calculation Amount: USD 1,000 
+    - (i) Specified Denomination: SEK 10,000,000 
+    -  Final Redemption Amount: In respect of each Note (being of the Specified Denomination), SEK 10,000,000 
+    - (iii) Minimum trading size: One (1) Security (corresponding to a nominal amount of SEK 10,000,000) 
+    - Specified Denomination(s) NOK 2,000,000 and integral multiples of NOK 1,000,000 in excess thereof 
+    -  (i) Specified Denominations: USD 200,000 and integral multiples of USD 1,000 in excess thereof up to and including USD 399,000. No Instruments in definitive form will be issued with a Specified Denomination above USD 399,000 
+    - (ii) Calculation Amount: USD 1,000 
+    - Festgelegte Stückelung NOK 2.000.000 Specified Denomination NOK 2,000,000 
+    -  (i) Specified Denominations: GBP 100,000 and integral multiples of GBP 1000 in excess thereof up to and including GBP 199,000. No Instruments in definitive form will be issued with a Specified Denomination above GBP 199,000. 
+    - (ii) Calculation Amount: GBP 1,000 
+    -  (i) Specified Denominations: £100,000 and multiples of £1,000 thereafter 
+    - (ii) Calculation Amount: £1,000 
+    - SEK 2,000,000 and integral multiples of  SEK 1,000,000 in excess thereof up to and including  SEK 3,000,000. No Notes in definitive form will be 
+    - 6 (i) Specified Denominations: NOK 2,000,000 
+    - (ii) Calculation Amount: NOK 2,000,000 
+
+- intent: DefineInstrumentMaxAmount
+  examples: |
+    -  ISIN code NO0011041535 Currency for the bond issue NOK Borrowing Limit and Borrowing Amount Borrowing Limit NOK 3,000,000,000. • Borrowing Amount 1st trance NOK 1,000,000,000
+    - Borrowing Limit – Tap Issue: NOK 3,000,000,000 
+    -  The Issuer may at one or more occasions after the Issue Date issue Subsequent Bonds under the Terms and Conditions, until the total amount under such Subsequent Bond Issue(s) and the Bond Issue equals USD 100,000,000. References to “Bayport” or the “Group” refer in this Prospectus to the Company and its subsidiaries from time to time, unless otherwise indicated by the context
+    - (a) Series: NOK 5,500,000,000 
+    - MAXIMUM SEK 750,000,000 
+    -  35 DocuSign Envelope ID: 3E63C2A5-355F-4747-8E34-92B7BE6BE6E8 1 TERMS AND CONDITIONS FOR VNV GLOBAL AB (PUBL) MAXIMUM SEK 750,000,000 SENIOR SECURED CALLABLE FIXED RATE BONDS 2021/2024 ISIN: SE0016275077 
+    - 1 The aggregate amount of the bond loan will be an amount of up to SEK 750,000,000 which will be represented by Bonds, each of a nominal amount of SEK 1,250,000 or full multiples thereof (the “Nominal Amount”)
+    - 4 The Issuer may at one or more occasions after the First Issue Date issue Subsequent Bonds under these Terms and Conditions (each such issue, a “Subsequent Bond Issue”), until the total amount under such Subsequent Bond Issue(s) and the Initial Bond Issue equals SEK 750,000,000 always provided that the Incurrence Test (calculated pro forma including such issue) is met. 
+    - Series: U.S.$1,250,000,000 
+    - (i) Series: USD 1,000,000,000 
+    -  Aggregate Nominal Amount: - 4 - (i) Series: SEK 120,000,000 
+    - (i) Series: USD 600,000,000 
+    - (i) Series: GBP 450,000,000 
+    - (i) Series: £700,000,000 
+    - (i) Series: NOK 250,000,000 
+    - (ii) Tranche: NOK 250,000,000 
+
+- intent: DefineInstrumentFirstAmount
+  examples: |
+    -  • Borrowing Amount 1st trance NOK 1,000,000,000. 
+    - Borrowing Amount 1st tranche: NOK 1,000,000,000 
+    - PROSPECTUS REGARDING THE LISTING OF USD 80,000,000 SUBORDINATED FIXED RATE SOCIAL BONDS 2019/2022 ISIN: NO0010871601 
+    - This prospectus (the “Prospectus”) has been prepared by Bayport Management Ltd (the “Company” or the “Issuer” and together with its subsidiaries from time to time, the “Group”), registration number 54787/C1 GBL, LEI 549300MHJ6KEDPWPMN38, in relation to the application for admission to trading of the Company’s USD 80,000,000 subordinated fixed rate social bonds 2019/2022 with ISIN NO0010871601 (the “Bonds”) issued on 19 December 2019 (the “Issue Date”) (the “Bond Issue”) in accordance with the terms and conditions for the Bonds (the “Terms and Conditions”) on Nasdaq Stockholm Sustainable Bond List (“Nasdaq Stockholm”). 
+    - Issue of NOK 5,500,000,000 Floating Rate Covered Notes due June 2026 (extendable to June 2027) 
+    - (b) Tranche: NOK 5,500,000,000 
+    -  The total nominal amount of the Initial Bonds is SEK 500,000,000 (the “Initial Bond Issue”)
+    -  The total nominal amount of the Initial Bonds is SEK 550,000,000. All Initial Bonds are issued on a fully paid basis at an issue price of one hundred (100) per cent
+    - Tranche: U.S.$1,250,000,000 
+    - Total initial principal amount: $750,000,000 
+    - Total initial principal amount: $900,000,000 
+    - (ii) Tranche: USD 1,000,000,000 
+    - (ii) Tranche: SEK 120,000,000 
+    - Aggregate Principal Amount: NOK 500,000,000 
+    - Aggregate Principal Amount of Series: NOK 500,000,000 § 1 (2) Form 
+    - Gesamtnennbetrag NOK 1.000.000.000 Aggregate Principal Amount NOK 1,000,000,000 
+    - Gesamtnennbetrag (in Worten) NOK eine Milliarde Aggregate Principal Amount (in words) NOK one billion 
+    - (ii) Tranche: GBP 450,000,000 
+    - GBP 200,000,000 0.375 per cent. Fixed Rate Notes due 15 November 2024 (the Notes) pursuant to its EUR 30,000,000,000 Euro Medium Term Note Programme, to be consolidated with the existing GBP 500,000,000 0.375 per cent. Fixed Rate Notes due 15 November 2024 (the Existing Notes) 
+    - (ii) Tranche: £200,000,000 
+
+- intent: DefineAgent
+  examples: |
+    - The representative of the bondholders is Nordic Trustee AS
+    - The Bond Trustee is Nordic Trustee AS, Postboks 1470 Vika, NO-0116 Oslo, Norway. 
+    - BOND TRUSTEE: Nordic Trustee AS, a company existing under the laws of Norway with registration number 963 342 624 and LEI- code 549300XAKTM2BMKIPT85. 
+    - “Trustee” means the Holders’ agent under these Terms and Conditions and, if relevant, the other Finance Documents, from time to time; initially Nordic Trustee & Agency AB (publ) (reg.no. 556882-1879, P.O. Box 7329 SE-103 90 Stockholm, Sweden). 
+    - "Agent" means Intertrust (Sweden) AB, reg. no. 556625-5476, P.O. Box 16285, SE-103 25 Stockholm, Sweden or another party replacing it, as Agent, in accordance with these Terms and Conditions. 
+    - (h) Agent: Citibank, N.A. for the Notes to be represented by the Regulation S Global Note  Citibank, N.A. for the Notes to be represented by the Rule 144A Global Note 
+    - “Trustee” refers to Citibank, N.A., London Branch, as trustee on behalf of the holders of Notes
+
